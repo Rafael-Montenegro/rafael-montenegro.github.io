@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "raleway", sans-serif;
+}
+header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+header p{
+    color: white;
+    align-self: center;
+    font-size: 35px;
+}
+.seccion1{
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+}
+.seccion2{
+    min-height: 30vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2 img{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.texto_seccion2{
+    color: white;
+    max-height: 400px;
+    max-width: 350px;
+    text-align: justify;
+    font-size: small;
+    padding: 0 5%;
+}
+.seccion3{
+    min-height: 25vh;
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_seccion{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.iconos{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos p{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.seccion4{
+    min-height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imagen_seccion4{
+    text-align: center;
+}
+.imagen_seccion4 img{
+    width: 220px;
+    height: auto;
+    margin: 10px;
+}
+footer{
+    background-color: #1E1A13;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    align-self: center;
+    color: white;
+}
+@media (max_Width:768px){
+    .seccion1{
+        background-image: url(../img/bg-header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 60vh;
+    }
+}

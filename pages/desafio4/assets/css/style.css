@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 62px;
+    background-image: url(../img/logo-white.png);
+    background-repeat: no-repeat;
+    background-size: 8em;
+    background-position: 30px center;
+}
+header .text-light{
+    display: flex;
+    text-align: right;
+}
+header .text-light p{
+    margin: 0 10px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+header .text-light.d-md-none {
+    margin-right: 33px;
+    font-size: 2.2em;
+}
+.card-footer .discount-price{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+body .container{
+    margin-top: 30px;
+    width: 90%;
+}
+.card-text i{
+    font-size: 0.6em;
+    vertical-align: 1.5px;
+    margin-right: 3px;
+}
+.card-footer{
+    text-align: right;
+}
+section{
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section p{
+    font-size: larger;
+    font-weight: 600;
+}
+section input{
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+section button.btn-light{
+    font-weight: bold;
+    padding: 5px 20px;
+}
+footer{
+    min-height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    position: absolute;
+    height: 25px;
+    width: auto;
+    margin-top: 25px;
+}
+footer .text-secondary{
+    position: absolute;
+    margin-top: 55px;
+    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    header{
+       background-position: 3.5rem center; 
+    }
+}
+@media (min-width: 992px){
+    header{
+       background-position: 70px center; 
+    }
+    body .container{
+        width: 100%;
+    } 
+    .card{
+        margin-right: 35px;
+    }
+    section input{
+        width: 90%;
+    }
+}
