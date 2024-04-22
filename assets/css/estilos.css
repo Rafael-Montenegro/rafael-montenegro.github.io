@@ -37,13 +37,24 @@ body {
     background-size: cover;
     background-position: center;
   }
+  #portafolio{
+    background-color: #373a3c;
+  }
   /* Contacto */
   
   #Contacto form label {
     font-weight: 700;
     color: #373a3c;
   }
-  
+  #sobre_mi,
+#Educación,
+#Experiencia,
+#portafolio,
+#contacto {
+    scroll-margin-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+    scroll-padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+}
+
   @media (max-width: 768px) {
     #Contacto form label {
       font-weight: 400;
