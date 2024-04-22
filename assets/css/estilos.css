@@ -3,13 +3,11 @@ body {
   }
   
   /* Hero Section */
-  
-  #Hero-Section {
-  } 
+
   .header_img{
     height: 380px;
     width: auto;
-    margin-left: 7%;
+    margin-left: 6%;
     margin-top: 3%;
   }
   .header_container{
@@ -17,6 +15,9 @@ body {
     align-items: center;
   }
 
+  .Educación{
+    margin-left: 10% !important;
+  }
   /* Mis trabajos */
   
   #Mis-trabajos .image-top {
