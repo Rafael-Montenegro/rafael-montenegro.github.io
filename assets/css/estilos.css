@@ -3,24 +3,35 @@ body {
   }
   
   /* Hero Section */
-
-  .header_img{
-    height: 380px;
-    width: auto;
-    margin-left: 6%;
-    margin-top: 3%;
-  }
   .header_container{
-    display: flex;
-    align-items: center;
+    margin-left: 10%;
   }
-
-  .Educación{
-    margin-left: 10% !important;
+  .header_img{
+    justify-self: right;
+    height: 350px;
+    width: auto;
+    margin-top: 20%;
+  }
+  .section_text{
+    margin-right: 60px;
+  }
+  .educación{
+    margin-left: 10%;
+  }
+  .experiencia{
+    margin-left: 10%;
+  }
+  .experiencia p{
+    max-width: 50% ;
+  }
+  .exp_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   /* Mis trabajos */
   
-  #Mis-trabajos .image-top {
+  #portafolio .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
