@@ -77,7 +77,7 @@ body {
 #portafolio .image-top {
   height: 250px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 #portafolio {
@@ -97,7 +97,6 @@ body {
   scroll-margin-top: 70px;
   scroll-padding-top: 70px; 
 }
-
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
