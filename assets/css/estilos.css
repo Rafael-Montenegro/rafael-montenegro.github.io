@@ -1,10 +1,14 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-
+*{
+  max-width: 100%;
+  box-sizing: border-box;
+}
 /* Hero Section */
 .header_container {
-  margin-left: 10%;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 .header_img {
   justify-self: right;
@@ -58,11 +62,9 @@ body {
 .section_text {
   margin-right: 60px;
 }
-.educación {
-  margin-left: 10%;
-}
-.experiencia {
-  margin-left: 10%;
+.educación, .experiencia {
+  margin: 0 auto;
+  padding: 0 5%;
 }
 .experiencia p {
   max-width: 50%;
@@ -101,8 +103,34 @@ body {
   #Contacto form label {
     font-weight: 400;
   }
-
+  .image-section{
+    padding-left: 10%;
+  }
+  .header_container{
+    h1{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      margin-left: 20%;
+    }
+  }
   .navbar-brand {
     width: 100px;
+  }
+  .experiencia{
+    p{
+      max-width: 80%;
+      margin-left: 15%;
+      text-align: center;
+    }
+  }
+  .educación, .experiencia{
+    h2{
+      text-align: center;
+    }
+  }
+  .desafios{
+    padding-left: 11%;
   }
 }
